@@ -1,0 +1,42 @@
+{
+  "name": "app-boilerplate",
+  "version": "1.0.0",
+  "description": "A basic boilerplate for creating Angular based applications with an Express.js back-end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chr8993/app-boilerplate.git"
+  },
+  "keywords": [
+    "angular",
+    "express",
+    "boilerplate"
+  ],
+  "author": "Christian Gomez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chr8993/app-boilerplate/issues"
+  },
+  "homepage": "https://github.com/chr8993/app-boilerplate",
+  "devDependencies": {
+    "angular-jsdoc": "^0.3.8",
+    "bower": "^1.4.1",
+    "gulp": "^3.9.0",
+    "gulp-bower": "0.0.10",
+    "gulp-bower-files": "^0.2.7",
+    "gulp-bump": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jsdoc": "^0.1.4",
+    "gulp-jshint": "^1.11.2",
+    "gulp-ng-annotate": "^1.0.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uglifycss": "^1.0.4",
+    "gulp-watch": "^4.3.3",
+    "jsdoc": "^3.3.2",
+    "main-bower-files": "^2.9.0"
+  }
+}

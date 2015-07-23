@@ -1,0 +1,30 @@
+{
+  "name": "App-Boilerplate",
+  "version": "1.0.0",
+  "authors": [
+    "Christian Gomez"
+  ],
+  "description": "A very basic boilerplate for Angular based applications with an Express.js backend.",
+  "main": "index.js",
+  "keywords": [
+    "angular",
+    "express",
+    "node",
+    "boilerplate",
+    "mongodb",
+    "gulp"
+  ],
+  "license": "MIT",
+  "homepage": "http://christiangomez.me",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "moment": "~2.10.3",
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.15",
+    "materialize": "~0.97.0",
+    "angular-cache": "~4.3.2",
+    "angular-mocks": "~1.4.3",
+    "angular-filter": "~0.5.4",
+    "ui-router-extras": "~0.0.14"
+  }
+}
