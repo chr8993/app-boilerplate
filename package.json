@@ -45,7 +45,10 @@
     "mongodb": "^2.0.39",
     "mongoose": "^4.0.8",
     "progress": "^1.1.8",
-    "prompt": "^0.2.14"
+    "prompt": "^0.2.14",
+    "q": "^1.4.1",
+    "shelljs": "^0.5.1",
+    "sync-exec": "^0.6.1"
   },
   "dependencies": {
     "express": "^4.13.1"

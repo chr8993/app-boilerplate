@@ -1,0 +1,15 @@
+    
+    
+    ########################################################################
+
+    Thank you for installing AptitudeJS!
+
+	To begin:
+
+
+	- Please make sure all proper dependancies are installed.
+
+	- Make sure you are up-to-date with the current version.
+
+
+

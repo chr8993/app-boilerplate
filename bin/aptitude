@@ -26,8 +26,6 @@ var init = function() {
 		switch(input) {
 			
 			case 'init': {
-
-				// aptitude.sayHello();
 				aptitude.initialize();
 				// var m = "Please wait...installing dependancies..";
 				// // console.log(m);
