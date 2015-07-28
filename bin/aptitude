@@ -6,6 +6,9 @@ var userArgs    = process.argv.slice(2);
 var userInput   = userArgs[0];
 var spawn 		= require('child_process').spawn;
 var fs 			= require('fs');
+var path 		= require('path');
+var chalk 		= require('chalk');
+var aptitude 	= require('../lib/scripts/init.js');
 
 /**
  *
@@ -23,25 +26,24 @@ var init = function() {
 		switch(input) {
 			
 			case 'init': {
-				fs.readFile('bin/logo.txt', 'utf-8', function(err, data) {
-					if(err) { console.log(err); }
-					console.log(data.toString());
-				})
-				var m = "Please wait...installing dependancies..";
-				// console.log(m);
-				//install required dependancies
-				var b = "Installing dependancies ";
-				var s = "[:bar] :percent :etas";
-				var bar = new progress(b + s, {total: 10});
-	
-				var timer = setInterval(function() {
-					bar.tick();
-					if(bar.complete) {
-						
-						clearInterval(timer);
-					}
-				}, 500);
 
+				// aptitude.sayHello();
+				aptitude.initialize();
+				// var m = "Please wait...installing dependancies..";
+				// // console.log(m);
+				// //install required dependancies
+				// var b = "Installing dependancies ";
+				// var s = "[:bar] :percent :etas";
+				// var bar = new progress(b + s, {total: 10});
+	
+				// var timer = setInterval(function() {
+				// 	bar.tick();
+				// 	if(bar.complete) {
+				// 		var dir = path.resolve(__dirname);
+				// 		console.log(chalk.green(dir));
+				// 		clearInterval(timer);
+				// 	}
+				// }, 500);
 
 				break;
 			}
@@ -64,25 +66,16 @@ var init = function() {
 	}
 };
 
-
-var inputError = function(err) {
-	console.log(err);
-};
-
-
 var spawnProcess = function(cmd) {
 	
 	var p;
-
 	var isWin = (process.platform == 'win32') ? true : false;
-	
 	if(isWin) {
 		p = spawn(process.env.comspec, ['/c', cmd]);
 	} 
 	else {
 		p = spawn(cmd);
 	}
-
 	return p;
 };
 
