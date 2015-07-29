@@ -20,18 +20,34 @@ var init = function() {
 		
 		var input = userInput;
 		switch(input) {
-			
-			case 'init': {
-				var directory = path.resolve(__dirname, '../');
+			/**
+			 * @function preinstall
+			 * @desc Runs pre-init 
+			 * functions
+			 *
+			 */
+			case 'preinstall': {
 				//run pre-install script
 				preinstall.install(function() {
-					var s = "../lib/scripts/init.js";
-					var aptitude = require(s);
-					aptitude.initialize(directory);
+					var m = "Finished installing.";
+					console.log(m);
 				});
 				break;
 			}
-
+			/**
+			 * @function init
+			 * @desc Initializes
+			 * a brand new project
+			 *
+			 */
+			case 'init': {
+				var d = path.resolve(__dirname, '../');
+				var s = "../lib/scripts/init.js";
+				var aptitude = require(s);
+				aptitude.initialize(d);
+				break;
+			}
+			
 			case 'start': {
 				console.log('starting server instance.');
 				break;
