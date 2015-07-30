@@ -1,0 +1,16 @@
+    
+    
+    ########################################################################
+
+    Please wait while we install the following dependancies:
+
+    	- angular
+    	- jquery
+    	- materializecss
+    	- gulp
+    	- bower
+    	- jsdoc
+    	- and more!
+    
+
+    

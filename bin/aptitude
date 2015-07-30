@@ -47,7 +47,7 @@ var init = function() {
 				aptitude.initialize(d);
 				break;
 			}
-			
+
 			case 'start': {
 				console.log('starting server instance.');
 				break;
@@ -64,18 +64,6 @@ var init = function() {
 			}
 		}
 	}
-};
-
-var spawnProcess = function(cmd) {
-	var p;
-	var isWin = (process.platform == 'win32') ? true : false;
-	if(isWin) {
-		p = spawn(process.env.comspec, ['/c', cmd]);
-	} 
-	else {
-		p = spawn(cmd);
-	}
-	return p;
 };
 
 init();
