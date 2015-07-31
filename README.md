@@ -1,2 +1,12 @@
-# app-boilerplate
-A very basic boilerplate for developing Angular based apps with an Express.js back-end.
+# AptitudeJS
+
+A very basic boilerplate for developing Angular based applications with an ExpressJS backend. 
+
+# Packages Included
+
+- Angular
+- ExpressJs
+- MongoDb
+- JSDoc
+
+
