@@ -4,6 +4,7 @@
   "description": "A basic boilerplate for creating Angular based applications with an Express.js back-end.",
   "main": "index.js",
   "scripts": {
+    "install": "aptitudejs preinstall"
   },
   "repository": {
     "type": "git",
