@@ -1,0 +1,69 @@
+/**
+ *
+ * Main styles 
+ *
+ */
+body {
+	margin: 0px;
+}
+.aptitude
+{
+	nav {
+		box-shadow: none !important;
+	}
+	.page-container {
+		width: 100%;
+		padding-top: 50px;
+		padding-bottom: 80px;
+		overflow: auto;
+		box-sizing: content-box;
+		font-family: "Roboto";
+		margin: 0px;
+		img.logo {
+			width: 220px;
+		}
+		h1 {
+			color: #fff;
+			font-weight: 200;
+			text-align: center;
+			font-size: 3.2em;
+			margin-bottom: 20px;
+			.lighter {
+				font-weight: 400;
+			}
+		}
+		h2 {
+			color: #fff;
+			text-align: center;
+			font-weight: 200;
+			font-size: 1.5em;
+			line-height: 1.4em;
+		}
+		a {
+			line-height: 54px;
+			i {
+				float: left;
+				margin-right: 10px;
+			}
+			margin-top: 30px;
+			color: #34495e;
+			margin-left: 20px;
+		}
+	}
+	.powered-by {
+		h5 {
+			font-weight: 300;
+		}
+	}
+	.commit {
+		padding-top: 10px; 
+		padding-bottom: 10px;
+	}
+	.dark-blue {
+		background: #272D4E !important;
+	}
+	.dark-blue-text {
+		color: #272D4E;
+	}
+}
+

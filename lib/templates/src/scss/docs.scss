@@ -1,0 +1,104 @@
+/**
+ * 
+ * Documentation styles
+ *
+ */
+.aptitude-docs {
+  height: auto !important;
+  min-height: 100%;
+  font-family: 'Roboto';
+  section {
+    background: transparent;
+  }
+  h1 {
+    
+    font-weight: 300 !important;
+    font-size: 2.6em;
+  }
+  h2 {
+    font-weight: 400 !important;
+    font-size: 2.3em;
+  }
+  h3 {
+    font-size: 2.1em;
+  }
+  h4 {
+    font-weight: 300 !important;
+    font-size: 1.5em;
+  }
+  #main {
+    margin-top: 50px;
+    max-width: 920px !important;
+  }
+  .sidenav {
+    width: 200px; 
+    position: fixed; 
+    right: 0px; 
+    top: 75px; 
+    bottom: 0px;
+    overflow-y: auto;
+  }
+  code {
+    background-color: transparent !important;
+  }
+  nav {
+    padding: 0px; 
+    overflow: visible;
+  }
+  nav .nav-wrapper {
+    margin: auto;
+    width: 900px !important;
+    height: 64px;
+  }
+  nav .brand-logo {
+      color: #fff !important;
+      font-weight: 300;
+      font-family: 'Roboto';
+  }
+  nav ul {
+    height: 64px;
+  }
+  nav ul li {
+    height: 64px;
+    line-height: 64px;
+    margin: 0px;
+  }
+  nav ul li a {
+    font-family: 'Roboto';
+    color: #fff !important;
+  }
+  nav ul li a i {
+    margin-left: 4px !important;
+    font-size: 16px !important;
+  }
+  nav ul li .dropdown-content {
+       height: auto !important;
+       margin-top: 10px !important;
+       width: auto !important;
+
+  }
+  nav ul li .dropdown-content li {
+      height: 50px !important;
+     
+  }
+  nav ul li .dropdown-content li a {
+    color: #333 !important;
+    height: 50px !important;
+    line-height: 20px !important;
+  }
+  .sidenav h1 {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+  }
+  .sidenav ul {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .dark-blue {
+    background: #272D4E !important;
+  }
+  .dark-blue-text {
+    color: #272D4E;
+  }
+}

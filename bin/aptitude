@@ -49,7 +49,9 @@ var init = function() {
 			}
 
 			case 'start': {
-				console.log('starting server instance.');
+				console.log('Starting AptitudeJS services..');
+				exec("node server.js", function() {});
+				exec("gulp", function() {});
 				break;
 			}
 
